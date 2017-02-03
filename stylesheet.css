@@ -1,0 +1,157 @@
+body {
+	font-family: Arial;
+}
+
+.center {
+	padding: 140px 0 0 0;
+	position: relative;
+	clear: both;
+
+}
+
+.header {
+	display: inline-block;
+	float: right;
+	position: relative;
+	clear: both;
+	padding: 5px 20px 0px 0px;
+}
+
+.logo {
+	padding: 0 0 30px 0;
+}
+
+.search_input {
+	width: 100%;
+	border: medium none;
+	border-radius: 1px;
+	margin: 0 0 20px 0;
+	font-size: 20px;
+	height: 100%;
+}
+
+
+.input_bg {
+
+	width: 45%;
+	height: 40px;
+	border: 3px solid #f2f2f2;
+	border-radius: 2px;
+	margin: 0 0 20px 0;
+}
+
+
+
+ul {
+	list-style-type: none;
+	display: inline-block;
+}
+
+li {
+	display: inline-block;
+	padding: 3px 3px 3px 3px;
+	vertical-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #383838;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.search_button,.lucky {
+	margin: 5px 3px 5px 3px;
+	height: 35px;
+	width: 140px;
+	border: none;
+	background-color: #f0f5fa;
+	font-weight: bold;
+	color: #737373;
+}
+
+.search_button:hover, .lucky:hover {
+	color: black;
+	border: 1px solid #bfbfbf;
+	border-radius: 2px;
+}
+
+.table_button_table {
+	height: 3px;
+	width: 3px;
+	padding: 1px 1px 0px 0px;
+	background-color: grey;
+}
+
+.table_button_table:hover {
+	color: black;
+} 
+
+
+.gmail_button, .images_button, .table_button_li {
+	height: 100%;
+	padding: 10px 5px 0px 5px;
+}
+
+.header_table_td {
+	padding: 0px 6px 0px 6px;
+}
+
+.sign_in_button {
+	background-color: #647ef7;
+	color: white;
+	height: 28px;
+	width: 72px;
+	border: none;
+	font-weight: bold;
+	border-radius: 2px;
+}
+
+
+input:focus, input:hover {
+	outline: none;
+}
+
+
+
+.footer {
+	bottom: 0;
+	width: 99%;
+	position: absolute;
+	height: 40px;
+	color: #666;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	display: inline-block;
+}
+
+.footer_right {
+	display: inline-block;
+	position: relative;
+	float: right;
+
+}
+
+.footer_left {
+	left: 0;
+	display: inline-block;
+	position: relative;
+}
+
+.footer_table td {
+	padding: 7px 15px 0px 15px;
+	color: #666;
+}
+
+.footer_link {
+	color: #666;
+	text-decoration: none;
+}
+
+.table_button_link:hover {
+	background-color: black;
+}
